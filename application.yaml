@@ -4,7 +4,7 @@ metadata:
   name: myapp-argo-application
   namespace: argocd
 spec:
-  project: default
+  project: app
 
   source:
     repoURL: https://github.com/ANUJ-POHANKAR/app.git
