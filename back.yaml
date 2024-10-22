@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: anuj210/dock-repo:latest   
+        image: anuj210/dock-repo:tomcat-9 
         ports:
         - containerPort: 8080
 
