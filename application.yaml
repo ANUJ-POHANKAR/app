@@ -7,7 +7,7 @@ spec:
   project: default
 
   source:
-    repoURL: https://github.com/Pritam-Khergade/kubenetes-cd.git
+    repoURL: https://github.com/ANUJ-POHANKAR/app.git
     targetRevision: HEAD
     path: dev
   destination: 
