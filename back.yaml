@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tomcat
-        image: 2533266990732.dkr.ecr.us-east-2.amazonaws.com/staggy:latest
+        image: anuj210/dock-repo:latest   
         ports:
         - containerPort: 8080
 
