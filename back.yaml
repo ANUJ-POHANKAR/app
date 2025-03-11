@@ -28,12 +28,11 @@ metadata:
     app.kubernetes.io/name: proxy
   name: nginx
 spec:
-  type: NodePort   
+  type: LoadBalancer 
   ports:
   - port: 8080
     protocol: TCP
-    targetPort: 8080
-    nodePort: 31000 
+    targetPort: 80
   selector:
     app: tomcat
 
